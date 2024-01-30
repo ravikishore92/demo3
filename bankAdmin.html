@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bankAdmin.css">
+</head>
+<body>
+    <div class="header">
+        <h3>Setup Bank</h3>
+    </div>
+    <hr>
+    <div class="navbar">
+        <p class="navbar-item">Bank Details</p>
+        <p class="navbar-item">Bank Admin</p>
+        <p class="navbar-item">Audit Trail</p>
+    </div>
+    <div class="bank-admin">
+        <h4>Bank Admin Details</h4>
+        <div class="bank-admin-form-group">
+        <div class="bank-admin-form-control">
+            <p>Name<span class="required">*</span></p>
+            <input type="text">
+        </div>
+        <div class="bank-admin-form-control">
+            <p>Designation<span class="required">*</span></p>
+            <input type="text">
+        </div>
+        <div class="bank-admin-form-control">
+            <p>Agreement No<span class="required">*</span></p>
+            <input type="text">
+        </div>
+        <div class="bank-admin-form-control">
+            <p>Agreement Date<span class="required">*</span></p>
+            <input type="date">
+        </div>
+        <div class="bank-admin-form-control">
+            <p>PAN<span class="required">*</span></p>
+            <input type="text">
+        </div>
+        <div class="bank-admin-form-control">
+            <p>Email<span class="required">*</span></p>
+            <input type="text">
+        </div>
+        <div class="bank-admin-form-control">
+            <p>No. of Admin Users<span class="required">*</span></p>
+            <select name="" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <div class="bank-admin-form-control">
+            <p>Mobile Number</p>
+            <input type="number">
+        </div>
+        <div class="bank-admin-form-control">
+            <p>Status<span class="required">*</span></p>
+            <select name="" id="">
+                <option value="Active" selected>Active</option>
+            </select>
+        </div>
+       
+    </div>
+    <div class="upload">
+        Upload Agreement Copy
+        <input type="file" name="" placeholder="Browse" id="">
+    </div>
+   
+    </div>
+    <div class="footer">
+        <input type="checkbox" name="" id="">
+        <p>I have read, understood, and agreed to the T&C of the organization</p>
+        <button class="cancel">Cancel</button>
+        <button>Save as Draft</button>
+        <button>Submit for Approval</button>
+    </div>
+    
+</body>
+</html>
